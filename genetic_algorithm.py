@@ -267,7 +267,7 @@ if __name__ == '__main__':
     path = "./doc/point.json"
     with open(path, 'r', encoding='gbk') as f:
         dic = json.load(f)
-#
+
     target_json = json.dumps(dic, ensure_ascii=False)
     choose = True
     main_function(key, target_json, choose)
